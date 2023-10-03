@@ -1,0 +1,51 @@
+{
+  "name": "open-npm-link-cli",
+  "version": "1.0.0",
+  "description": "Open a npm link for target package",
+  "homepage": "https://github.com/yyz945947732/open-npm-link-cli",
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "lint": "biome check --apply-unsafe ./lib && biome format --write ./lib"
+  },
+  "bin": {
+    "onpm": "./bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "open-cli",
+    "npm",
+    "npmlink",
+    "package",
+    "open",
+    "opener",
+    "opens",
+    "launch",
+    "browser",
+    "website"
+  ],
+  "type": "module",
+  "author": "yyz945947732 <945947732@qq.com>",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/yyz945947732/open-npm-link-cli/issues",
+    "email": "945947732@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyz945947732/open-npm-link-cli.git"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "open-npm-link": "^1.0.1",
+    "update-notifier": "^6.0.2",
+    "yargs-parser": "^21.1.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.1.2",
+    "@types/fs-extra": "^11.0.1"
+  }
+}
